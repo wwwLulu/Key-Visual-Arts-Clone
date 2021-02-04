@@ -147,6 +147,9 @@ export default {
         padding: 0;
         justify-content: center;
         align-items: center;
+        &logo {
+            height: 3rem;
+        }
         &__links {
             display: none;
         }
