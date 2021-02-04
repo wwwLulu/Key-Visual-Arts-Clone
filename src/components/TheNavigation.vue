@@ -86,7 +86,7 @@ export default {
     justify-content: space-between;
     padding: 0rem 5rem;
     width: 100%;
-    height: 6rem;
+    min-height: 6rem;
     border-top: 0.2rem solid var(--color-primary);
     border-bottom: 0.2rem solid #333;
     &__hamburger-menu {
