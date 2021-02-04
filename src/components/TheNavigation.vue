@@ -124,7 +124,9 @@ export default {
         margin-left: 1rem;
     }
     @media (max-width: 1375px) {
+        height: 100%;
         min-height: 6rem;
+
         &__right {
             display: none;
         }
