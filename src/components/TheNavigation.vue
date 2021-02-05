@@ -103,6 +103,9 @@ export default {
     &__logo {
         height: 4rem;
     }
+    &__links {
+        display: flex;
+    }
     &__link {
         height: 4rem;
         margin: 0 3rem;
