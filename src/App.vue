@@ -21,7 +21,7 @@ export default {
 html {
     font-size: 62.5%;
     @media (max-width: 650px) {
-        font-size: 55%;
+        font-size: 50%;
     }
 }
 
