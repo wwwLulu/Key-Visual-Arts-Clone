@@ -1,14 +1,17 @@
 <template>
-    <the-navigation></the-navigation>
+    <TheNavigation />
+    <SlideShow />
 </template>
 
 <script>
 import TheNavigation from '@/components/TheNavigation.vue'
+import SlideShow from '@/components/SlideShow.vue'
 
 export default {
     name: 'App',
     components: {
         TheNavigation,
+        SlideShow,
     },
 }
 </script>
