@@ -56,7 +56,7 @@ export default {
             setInterval(() => {
                 this.moveRight()
                 this.updateThumbnailOrder()
-            }, 4000)
+            }, 6000)
         },
         moveRight() {
             if (this.currentImage != this.images.length - 1) {
@@ -167,6 +167,10 @@ export default {
         width: 15%;
         height: 100%;
         border-radius: 2rem;
+        transition: all 0.4s;
+        &:hover {
+            opacity: 1;
+        }
         img {
             border: solid 2px white;
             width: 100%;
