@@ -106,6 +106,9 @@ export default {
     @media (max-width: 1000px) {
         height: 37rem;
     }
+    @media (max-width: 650px) {
+        height: 30rem;
+    }
     &__background {
         position: absolute;
         top: 0;
@@ -131,6 +134,9 @@ export default {
         width: 70%;
         height: 65%;
         border-radius: 2rem;
+        @media (max-width: 650px) {
+            width: 90%;
+        }
         img {
             border: 4px solid white;
             width: 100%;
@@ -151,6 +157,9 @@ export default {
         }
         @media (max-width: 1000px) {
             height: 6rem;
+        }
+        @media (max-width: 650px) {
+            display: none;
         }
     }
     &__thumbnail {
