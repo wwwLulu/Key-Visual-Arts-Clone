@@ -58,5 +58,8 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    @media (max-width: 650px) {
+        padding: 3rem;
+    }
 }
 </style>
