@@ -47,13 +47,18 @@
     align-items: center;
     height: 20rem;
     &__thumbnail {
-        @media (max-width: 650px) {
-            display: none;
-        }
         max-width: 24rem;
         height: 100%;
         border-radius: 2rem;
         margin-right: 1rem;
+        @media (max-width: 650px) {
+            // display: none;
+            margin-top: 0.5rem;
+            max-width: 14rem;
+            height: auto;
+            align-self: flex-start;
+            border-radius: 1rem;
+        }
         img {
             width: 100%;
             height: 100%;
