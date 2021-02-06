@@ -53,6 +53,9 @@
     align-items: center;
     height: 20rem;
     &__thumbnail {
+        @media (max-width: 650px) {
+            display: none;
+        }
         max-width: 24rem;
         height: 100%;
         border-radius: 2rem;
@@ -66,22 +69,25 @@
         }
     }
     &__summary {
-        clip-path: polygon(
-            100% 0,
-            100% 100%,
-            1.5% 100%,
-            1.5% 71%,
-            1.5% 61%,
-            0 51%,
-            1.5% 40%,
-            1.5% 28%,
-            1.5% 14%,
-            1.5% 0
-        );
+        @media (min-width: 650px) {
+            clip-path: polygon(
+                100% 0,
+                100% 100%,
+                1.5% 100%,
+                1.5% 71%,
+                1.5% 61%,
+                0 51%,
+                1.5% 40%,
+                1.5% 28%,
+                1.5% 14%,
+                1.5% 0
+            );
+            padding-left: 1.7rem;
+        }
+
         height: 100%;
         max-width: 50rem;
         padding: 1rem;
-        padding-left: 1.7rem;
         background: white;
         border-radius: 2rem;
     }
