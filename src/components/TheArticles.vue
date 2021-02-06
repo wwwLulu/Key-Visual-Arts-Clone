@@ -45,8 +45,10 @@
     margin: 2.5rem 0;
     display: flex;
     align-items: center;
+
     height: 20rem;
     &__thumbnail {
+        display: block;
         max-width: 24rem;
         height: 100%;
         border-radius: 2rem;
@@ -54,8 +56,8 @@
         @media (max-width: 650px) {
             // display: none;
             margin-top: 0.5rem;
-            max-width: 14rem;
-            height: auto;
+            max-width: 10rem;
+            height: 100%;
             align-self: flex-start;
             border-radius: 1rem;
         }
