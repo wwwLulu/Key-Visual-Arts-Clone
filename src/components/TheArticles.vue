@@ -16,29 +16,23 @@
         </div>
         <div class="article">
             <div class="article__thumbnail">
-                <img
-                    src="@/assets/main_image_loopers_1211.jpg"
-                    alt="thumbnail"
-                />
+                <img src="@/assets/keyinfo210202_thum1.png" alt="thumbnail" />
             </div>
             <div class="article__summary">
-                <h4 class="article__date">02.05.2021</h4>
+                <h4 class="article__date">02.03.2021</h4>
                 <h4 class="article__title">
-                    『LOOPERS』のダウンロード版が、本日より予約販売を開始いたしました。詳しい情報は下記リンク先をご覧ください。
+                    「プリマドール」公式サイトを更新しました！
                 </h4>
             </div>
         </div>
         <div class="article">
             <div class="article__thumbnail">
-                <img
-                    src="@/assets/main_image_loopers_1211.jpg"
-                    alt="thumbnail"
-                />
+                <img src="@/assets/keyinfo210201_thum1.jpg" alt="thumbnail" />
             </div>
             <div class="article__summary">
-                <h4 class="article__date">02.05.2021</h4>
+                <h4 class="article__date">1.25.2020</h4>
                 <h4 class="article__title">
-                    『LOOPERS』のダウンロード版が、本日より予約販売を開始いたしました。詳しい情報は下記リンク先をご覧ください。
+                    「LOOPERS」公式サイトにて、店舗特典情報を公開しました！
                 </h4>
             </div>
         </div>
