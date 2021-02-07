@@ -5,6 +5,8 @@
         <TheArticles />
         <SideBar />
     </div>
+    <TheProducts />
+    <TheFooter />
 </template>
 
 <script>
@@ -12,6 +14,8 @@ import TheNavigation from '@/components/TheNavigation.vue'
 import SlideShow from '@/components/SlideShow.vue'
 import TheArticles from '@/components/TheArticles'
 import SideBar from '@/components/SideBar'
+import TheProducts from '@/components/TheProducts'
+import TheFooter from '@/components/TheFooter'
 
 export default {
     name: 'App',
@@ -20,6 +24,8 @@ export default {
         SlideShow,
         TheArticles,
         SideBar,
+        TheProducts,
+        TheFooter,
     },
 }
 </script>
@@ -44,6 +50,10 @@ html {
 body {
     font-family: Meiryo, sans-serif, monospace;
     background: #eaeaea;
+    max-width: 1925px;
+    margin: 0 auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .main-content {
