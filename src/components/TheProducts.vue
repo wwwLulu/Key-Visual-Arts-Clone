@@ -93,7 +93,7 @@
     &__gallery {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         gap: 2rem;
     }
     &__product {
