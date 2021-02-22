@@ -95,6 +95,9 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         gap: 2rem;
+        @media (max-width: 800px) {
+            grid-template-columns: 1fr 1fr;
+        }
     }
     &__product {
         position: relative;
