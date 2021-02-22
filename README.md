@@ -1,5 +1,7 @@
-Key Clone
-<img src='https://pbs.twimg.com/media/EtlqnfoVcAE3BLr?format=jpg&name=4096x4096'>
+# Key Visual Arts Website
+<a href='keyva.netlify.app/'>Live Demo</a> 
+<br>
+<img src='https://i.ibb.co/Kr251xX/Screen-Shot-2021-02-18-at-1-11-24-AM.png'>
 
 ## Project setup
 ```
