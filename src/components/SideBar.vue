@@ -4,7 +4,6 @@
         <img src="@/assets/key_side_banner_primadoll.jpg" alt="thumbnail" />
         <img src="@/assets/key_side_banner_kinenove.jpg" alt="thumbnail" />
         <img src="@/assets/key_side_banner_sprb.jpg" alt="thumbnail" />
-        <img src="@/assets//key_kamisama_side_banner.jpg" alt="thumbnail" />
     </div>
 </template>
 
