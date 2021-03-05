@@ -141,7 +141,7 @@ export default {
         p {
             animation: fadeInFromTop 0.4s ease-out forwards;
             animation-play-state: paused; /* but paused */
-
+            font-weight: 200;
             display: none;
             opacity: 0;
             z-index: 5000;
