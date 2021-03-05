@@ -33,6 +33,7 @@ export default {
 <style lang="scss" scoped>
 i {
     @media (min-width: 800px) {
+        z-index: 15000;
         display: none;
         transition: all 0.3s;
         cursor: pointer;
