@@ -139,7 +139,11 @@ export default {
             object-position: center;
         }
         p {
+            animation: fadeIn 0.4s ease-out forwards;
+            animation-play-state: paused; /* but paused */
+
             display: none;
+            opacity: 0;
             z-index: 5000;
             position: absolute;
             font-size: 2.4rem;
@@ -165,6 +169,7 @@ export default {
         }
         &:hover p {
             display: inline-block;
+            animation-play-state: running; /* trigger on hover */
         }
     }
 }
