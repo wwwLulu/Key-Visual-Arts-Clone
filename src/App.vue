@@ -6,6 +6,7 @@
         <SideBar />
     </div>
     <TheProducts />
+    <ScrollTop />
     <TheFooter />
 </template>
 
@@ -16,6 +17,7 @@ import TheArticles from '@/components/TheArticles'
 import SideBar from '@/components/SideBar'
 import TheProducts from '@/components/TheProducts'
 import TheFooter from '@/components/TheFooter'
+import ScrollTop from '@/components/ScrollTop'
 
 export default {
     name: 'App',
@@ -26,6 +28,7 @@ export default {
         SideBar,
         TheProducts,
         TheFooter,
+        ScrollTop,
     },
 }
 </script>
