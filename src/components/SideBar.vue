@@ -1,9 +1,25 @@
 <template>
     <div class="side-bar">
-        <img src="@/assets/key_side_banner_vafes.jpg" alt="thumbnail" />
-        <img src="@/assets/key_side_banner_primadoll.jpg" alt="thumbnail" />
-        <img src="@/assets/key_side_banner_kinenove.jpg" alt="thumbnail" />
-        <img src="@/assets/key_side_banner_sprb.jpg" alt="thumbnail" />
+        <img
+            loading="lazy"
+            src="@/assets/key_side_banner_vafes.jpg"
+            alt="thumbnail"
+        />
+        <img
+            loading="lazy"
+            src="@/assets/key_side_banner_primadoll.jpg"
+            alt="thumbnail"
+        />
+        <img
+            loading="lazy"
+            src="@/assets/key_side_banner_kinenove.jpg"
+            alt="thumbnail"
+        />
+        <img
+            loading="lazy"
+            src="@/assets/key_side_banner_sprb.jpg"
+            alt="thumbnail"
+        />
     </div>
 </template>
 

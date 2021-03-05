@@ -2,7 +2,11 @@
     <div class="products__product">
         <a :href="url">
             <div class="products__product--overlay"></div>
-            <img :src="require('../assets/' + image)" alt="product" />
+            <img
+                loading="lazy"
+                :src="require('../assets/' + image)"
+                alt="product"
+            />
             <p>{{ name }}</p>
         </a>
     </div>

@@ -3,6 +3,7 @@
         <div class="article">
             <div class="article__thumbnail">
                 <img
+                    loading="lazy"
                     src="@/assets/main_image_loopers_1211.jpg"
                     alt="thumbnail"
                 />
@@ -16,7 +17,11 @@
         </div>
         <div class="article">
             <div class="article__thumbnail">
-                <img src="@/assets/keyinfo210202_thum1.png" alt="thumbnail" />
+                <img
+                    loading="lazy"
+                    src="@/assets/keyinfo210202_thum1.png"
+                    alt="thumbnail"
+                />
             </div>
             <div class="article__summary">
                 <h4 class="article__date">02.03.2021</h4>
@@ -27,7 +32,11 @@
         </div>
         <div class="article">
             <div class="article__thumbnail">
-                <img src="@/assets/keyinfo210201_thum1.jpg" alt="thumbnail" />
+                <img
+                    loading="lazy"
+                    src="@/assets/keyinfo210201_thum1.jpg"
+                    alt="thumbnail"
+                />
             </div>
             <div class="article__summary">
                 <h4 class="article__date">1.25.2020</h4>
