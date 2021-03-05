@@ -94,7 +94,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .slideshow {
     position: relative;
     width: 100%;
@@ -130,6 +130,7 @@ export default {
         background: rgba(255, 255, 255, 0.5);
     }
     &__spotlight {
+        animation: fadeIn 3s ease-out forwards;
         z-index: 1000;
         width: 70%;
         height: 65%;

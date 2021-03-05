@@ -36,6 +36,7 @@ export default {
 }
 
 html {
+    scroll-behavior: smooth;
     font-size: 62.5%;
     @media (max-width: 650px) {
         font-size: 50%;
@@ -73,7 +74,7 @@ body {
     }
 }
 
-@keyframes fadeIn {
+@keyframes fadeInFromTop {
     from {
         opacity: 0;
         transform: translateY(-5rem);
@@ -81,6 +82,15 @@ body {
     to {
         opacity: 1;
         transform: translateY(0rem);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 </style>
