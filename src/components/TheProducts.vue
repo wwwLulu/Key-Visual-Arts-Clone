@@ -33,11 +33,6 @@
             </div>
             <div class="products__product">
                 <div class="products__product--overlay"></div>
-                <img src="@/assets/product_image_rewritehf.jpg" alt="product" />
-                <p>Visit</p>
-            </div>
-            <div class="products__product">
-                <div class="products__product--overlay"></div>
                 <img src="@/assets/product_image_kudwaf.jpg" alt="product" />
                 <p>Visit</p>
             </div>
@@ -77,7 +72,11 @@
     width: 100%;
     height: 100%;
     padding: 5rem;
+
     background: #4e4e5c;
+    @media (max-width: 800px) {
+        padding: 2rem;
+    }
     &__header {
         width: 100%;
         display: flex;
