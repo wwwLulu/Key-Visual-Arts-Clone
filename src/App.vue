@@ -1,4 +1,5 @@
 <template>
+    <Modal />
     <TheNavigation />
     <SlideShow />
     <div class="main-content">
@@ -18,10 +19,12 @@ import SideBar from '@/components/SideBar'
 import TheProducts from '@/components/TheProducts'
 import TheFooter from '@/components/TheFooter'
 import ScrollTop from '@/components/ScrollTop'
+import Modal from '@/components/Modal'
 
 export default {
     name: 'App',
     components: {
+        Modal,
         TheNavigation,
         SlideShow,
         TheArticles,
