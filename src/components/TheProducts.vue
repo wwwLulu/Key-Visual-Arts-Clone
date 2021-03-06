@@ -76,6 +76,11 @@ export default {
                     image: 'product_image_planetarian.jpg',
                 },
                 {
+                    name: 'Air',
+                    url: 'https://key.visualarts.gr.jp/product/air/',
+                    image: 'product_image_air.jpg',
+                },
+                {
                     name: 'Kanon',
                     url: 'https://key.visualarts.gr.jp/product/kanon/',
                     image: 'product_image_kanon.jpg',
