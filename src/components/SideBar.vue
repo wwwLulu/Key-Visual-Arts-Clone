@@ -21,7 +21,7 @@
             alt="thumbnail"
         />
         <div class="twitter">
-            <h2>Twitter</h2>
+            <a href="https://twitter.com/key_official"><h2>Twitter</h2></a>
             <a
                 class="twitter-timeline"
                 data-width="300"
@@ -50,7 +50,11 @@
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
     .twitter {
+        a {
+            text-decoration: none;
+        }
         h2 {
+            cursor: pointer;
             max-width: 30rem;
             text-align: center;
             background: var(--color-primary);
